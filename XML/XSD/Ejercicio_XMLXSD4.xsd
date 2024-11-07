@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Definición del tipo de datos para el salario -->
+  <xs:simpleType name="tipoSalario">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Definición del tipo de datos para el nombre -->
+  <xs:simpleType name="tipoNombre">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="50"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Definición del tipo de datos para el puesto -->
+  <xs:simpleType name="tipoPuesto">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Desarrollador"/>
+      <xs:enumeration value="Analista"/>
+      <!-- Se pueden añadir más valores según sea necesario -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Definición del elemento 'empleado' -->
+  <xs:element name="empleado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="tipoNombre"/>
+        <xs:element name="puesto" type="tipoPuesto"/>
+        <xs:element name="salario" type="tipoSalario"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:integer" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Definición del elemento 'empleados' -->
+  <xs:element name="empleados">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="empleado" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

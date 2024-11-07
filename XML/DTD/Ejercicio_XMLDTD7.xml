@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE futbol [
+<!ELEMENT futbol ((jugador|equipo)*)>
+<!ELEMENT jugador EMPTY>
+<!ATTLIST jugador nombre NMTOKENS #REQUIRED>
+<!ATTLIST jugador codigo ID #REQUIRED>
+<!ELEMENT equipo EMPTY>
+<!ATTLIST equipo nombre CDATA #REQUIRED>
+<!ATTLIST equipo jugadores IDREFS #IMPLIED>
+]>
+
+<futbol>
+    <jugador nombre="AlfredoDiStéfano" codigo="ads"/>
+    <jugador nombre="EdisonArantesdoNascimento" codigo="ean" />
+    <jugador nombre="DiegoArmandoMaradona" codigo="dam" />
+    <jugador nombre="JohanCruyff" codigo="jc" />
+    <equipo nombre="Società Sportiva Calcio Napoli" jugadores="dam" />
+    <equipo nombre="Futbol Club Barcelona" jugadores="jc dam" />
+</futbol>
+
+<!--  
+
+El siguiente documento XML no es válido, modificalo, lo mínimo posible, para
+que lo sea. La DTD no debe modificarse.
+
+f) futbol.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE futbol [
+<!ELEMENT futbol ((jugador|equipo)*)>
+<!ELEMENT jugador EMPTY>
+<!ATTLIST jugador nombre NMTOKENS #REQUIRED>
+<!ATTLIST jugador codigo ID #REQUIRED>
+<!ELEMENT equipo EMPTY>
+<!ATTLIST equipo nombre CDATA #REQUIRED>
+<!ATTLIST equipo jugadores IDREFS #IMPLIED>
+]>
+
+<futbol>
+<jugador nombre="Alfredo Di Stéfano" codigo="ads"/>
+<jugador nombre="Edison Arantes do Nascimento" codigo="ean" />
+<jugador nombre="Diego Armando Maradona" codigo="dam" />
+<jugador nombre="Johan Cruyff" codigo="jc" />
+<equipo nombre="Società Sportiva Calcio Napoli" jugadores="Maradona" />
+<equipo nombre="Futbol Club Barcelona" jugadores="Cruyff, Maradona" />
+</futbol>
+
+-->

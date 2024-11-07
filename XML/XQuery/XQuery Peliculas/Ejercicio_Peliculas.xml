@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas>
+    <pelicula>
+        <titulo>Matrix</titulo>
+        <director>Lana Wachowski, Lilly Wachowski</director>
+        <año>1999</año>
+        <genero>Ciencia ficción</genero>
+        <duracion>136</duracion>
+    </pelicula>
+    <pelicula>
+        <titulo>El Señor de los Anillos: La Comunidad del Anillo</titulo>
+        <director>Peter Jackson</director>
+        <año>2001</año>
+        <genero>Fantasía</genero>
+        <duracion>178</duracion>
+    </pelicula>
+    <pelicula>
+        <titulo>Forrest Gump</titulo>
+        <director>Robert Zemeckis</director>
+        <año>1994</año>
+        <genero>Drama</genero>
+        <duracion>142</duracion>
+    </pelicula>
+</peliculas>

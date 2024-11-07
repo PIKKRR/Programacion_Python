@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repuestos [
+<!ELEMENT repuestos (repuesto+)>
+<!ELEMENT repuesto (tornillo | tuerca)>
+<!ELEMENT tornillo (#PCDATA)>
+<!ATTLIST tornillo peso CDATA #REQUIRED>
+<!ELEMENT tuerca (#PCDATA)>
+<!ATTLIST tuerca peso CDATA #IMPLIED>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT material (#PCDATA)>
+]>
+
+<!-- 
+    Enunciado 1:
+
+Una empresa de repuestos desea almacenar en XML la información de su inventario con los siguientes requisitos:
+
+El elemento raíz debe ser <repuestos>.
+Dentro de <repuestos> debe haber uno o más <repuesto>.
+Dentro de <repuesto> debe haber una de estas dos cosas: <tornillo> o <tuerca>.
+Tornillo lleva siempre un atributo peso y lleva dentro un elemento llamado <descripcion>.
+Tuerca puede llevar un atributo peso y lleva dentro siempre un elemento llamado <material>.
+Se pide:
+
+Crear una gramática DTD para los ficheros de datos que debería validar el siguiente ejemplo:
+
+XML
+
+<repuestos>
+    <repuesto>
+        <tornillo peso="5g">
+            <descripcion>Tornillo para ensamblajes metálicos</descripcion>
+        </tornillo>
+    </repuesto>
+    <repuesto>
+        <tuerca>
+            <material>Acero</material>
+        </tuerca>
+    </repuesto>
+    <repuesto>
+        <tuerca peso="12 mg">
+            <material>Aleación</material>
+        </tuerca>
+    </repuesto>
+</repuestos>
+-->

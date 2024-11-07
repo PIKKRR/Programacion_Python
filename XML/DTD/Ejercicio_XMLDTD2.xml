@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona [
+<!ELEMENT persona EMPTY>
+<!ATTLIST persona dni CDATA #IMPLIED>
+]>
+<persona dni="03141592E" />
+
+
+<!--ENUNCIADO 1
+
+El siguiente documento XML no es válido, modificalo, lo mínimo posible, para
+que lo sea. La DTD no debe modificarse.
+
+a) persona.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona [
+<!ELEMENT persona EMPTY>
+<!ATTLIST persona nombre CDATA #IMPLIED>
+]>
+<persona dni="03141592E" />
+
+-->

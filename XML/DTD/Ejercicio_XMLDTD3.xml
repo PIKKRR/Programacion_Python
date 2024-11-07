@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pelicula [
+<!ELEMENT pelicula EMPTY>
+<!ATTLIST pelicula titulo CDATA #IMPLIED>
+]>
+
+<pelicula titulo="La diligencia" />
+
+<!--
+
+El siguiente documento XML no es válido, modificalo, lo mínimo posible, para
+que lo sea. La DTD no debe modificarse.
+
+c)pelicula.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pelicula [
+<!ELEMENT pelicula EMPTY>
+<!ATTLIST pelicula titulo CDATA #IMPLIED>
+]>
+
+<pelicula titulo="La diligencia" genero="oeste" />
+
+-->

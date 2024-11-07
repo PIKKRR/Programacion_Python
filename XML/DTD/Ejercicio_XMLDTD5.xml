@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listacompra [
+<!ELEMENT listacompra (item*)>
+<!ELEMENT item EMPTY>
+<!ATTLIST item nombre CDATA #REQUIRED>
+<!ATTLIST item cantidad CDATA #REQUIRED>
+]>
+
+<listacompra>
+    <item nombre="Leche" cantidad="12 litros" />
+    <item nombre="Pan" cantidad="3 barras de cuarto" />
+</listacompra>
+
+
+<!--
+    
+El siguiente documento XML no es válido, modificalo, lo mínimo posible, para
+que lo sea. La DTD no debe modificarse.
+
+d) listacompra.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listacompra [
+<!ELEMENT listacompra (item*)>
+<!ELEMENT item EMPTY>
+<!ATTLIST item nombre CDATA #REQUIRED>
+<!ATTLIST item cantidad CDATA #REQUIRED>
+]>
+<listacompra>
+<leche cantidad="12 litros" ></leche>
+<pan cantidad="3 barras de cuarto" />
+</listacompra>
+
+-->

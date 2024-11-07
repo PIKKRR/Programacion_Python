@@ -1,0 +1,23 @@
+<uml:Diagram xmlns:uml="http://www.omg.org/spec/XMI/20131001/uml" name="DiagramaClases">
+    <uml:Class name="Persona">
+        <uml:Attribute name="id" type="int"/>
+        <uml:Attribute name="nombre" type="String"/>
+        <uml:Attribute name="edad" type="int"/>
+        <uml:Attribute name="genero" type="String"/>
+        <uml:Association>
+            <uml:MemberEnd type="Direccion" multiplicity="1"/>
+        </uml:Association>
+    </uml:Class>
+    
+    <uml:Class name="Direccion">
+        <uml:Attribute name="calle" type="String"/>
+        <uml:Attribute name="ciudad" type="String"/>
+        <uml:Attribute name="codigoPostal" type="String"/>
+        <uml:Attribute name="pais" type="String"/>
+    </uml:Class>
+    
+    <uml:Association>
+        <uml:End type="Persona" multiplicity="1"/>
+        <uml:End type="Direccion" multiplicity="0..1"/>
+    </uml:Association>
+</uml:Diagram>

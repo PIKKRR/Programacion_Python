@@ -1,0 +1,52 @@
+img.fotoperfil{
+    width: 200px;
+    height: 170px;
+    margin: 10px;
+
+
+}
+img {
+    width: 1200px;
+    height: 300px;
+    display: block;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('imagenfondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #fff; 
+
+}
+.header {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+
+}
+.container {
+    position: relative;
+    display: inline-block;
+  }
+  section {
+    margin: 20px;
+  }
+
+  h2 {
+    color: #ffffff;
+    
+  }
+  
+  
+ 
+  
+
+ 

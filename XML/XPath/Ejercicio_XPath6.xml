@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ies>
+    <nombre>IES Ágora</nombre>
+    <web>http://www.iesagora.juntaextremadura.net/</web>
+    <ciclos>
+        <ciclo id="ASIR">
+            <nombre>Administración de Sistemas Informáticos en Red</nombre>
+            <grado>Superior</grado>
+            <decretotitulo año="2009" />
+        </ciclo>
+        <ciclo id="DAM">
+            <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+            <grado>Superior</grado>
+            <decretotitulo año="2010" />
+        </ciclo>
+        <ciclo id="DAW">
+            <nombre>Desarrollo de Aplicaciones Web</nombre>
+            <grado>Superior</grado>
+            <decretotitulo año="2010" />
+        </ciclo>
+        <ciclo id="SMR">
+            <nombre>Sistemas Microinformáticos y Redes</nombre>
+            <grado>Medio</grado>
+            <decretotitulo año="2008" />
+        </ciclo>
+    </ciclos>
+    <modulos>
+        <modulo id="0228">
+            <nombre>Aplicaciones Web</nombre>
+            <curso>2</curso>
+            <horassemanales>4</horassemanales>
+            <ciclo>SMR</ciclo>
+        </modulo>
+        <modulo id="0372">
+            <nombre>Gestión de Bases de Datos</nombre>
+            <curso>1</curso>
+            <horassemanales>5</horassemanales>
+            <ciclo>ASIR</ciclo>
+        </modulo>
+        <modulo id="0373">
+            <nombre>Lenguajes de Marcas y Sistemas de Gestión de la Información</nombre>
+            <curso>1</curso>
+            <horassemanales>4</horassemanales>
+            <ciclo>ASIR</ciclo>
+            <ciclo>DAM</ciclo>
+            <ciclo>DAW</ciclo>
+        </modulo>
+        <modulo id="0376">
+            <nombre>Implantación de Aplicaciones Web</nombre>
+            <curso>2</curso>
+            <horassemanales>5</horassemanales>
+            <ciclo>ASIR</ciclo>
+        </modulo>
+    </modulos>
+</ies>
+
+<!-- Escribir las expresiones XPath necesarias para obtener exactamente los siguientes resultados:
+
+a) Nombre de los módulos del ciclo "Sistemas Microinformáticos y Redes"
+Aplicaciones Web
+
+/ies/modulos/modulo[ciclo='SMR']/nombre/text()
+
+b) Nombre de los ciclos que incluyen el módulo "Lenguajes de Marcas y Sistemas de
+Gestión de la Información"
+
+ies/modulos/modulo[nombre="Lenguajes de Marcas y Sistemas de
+Gestión de la Información"]/ciclo/text()
+
+c) Nombre de los módulos de los ciclos de grado superior.
+
+/ies/ciclos/ciclo[grado='Superior']/@id
+
+d) Nombre de los módulos de los ciclos cuyo título se aprobó en 2009
+
+/ies/ciclos/ciclo[decretotitulo/@año="2009"]/nombre
+
+e) Grado de los ciclos con módulos de primer curso
+
+/ies/ciclos/ciclo[../modulos/modulo/curso="1"]/grado/text()
+
+-->
