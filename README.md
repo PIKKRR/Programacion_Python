@@ -1,12 +1,15 @@
-## Ejercicios de Base de datos realizados durante el curso (Y otros añadidos para mi aprendizaje).
+# Ejercicios de Programación en Python
 
-📚 Este repositorio alberga una serie de ejercicios de base de datos desarrollados durante mi curso. Los ejercicios van desde consultas SQL básicas hasta esquemas de bases de datos avanzados.
+🐍 Este repositorio contiene una amplia variedad de ejercicios de programación en Python
+
 
 ## Herramientas Utilizadas
 
-- ⚙️ **XAMPP**: Utilizado para configurar un entorno de desarrollo local, incluyendo MariaDB para gestionar bases de datos MySQL.
-- 🛢️ **MySQL**: El sistema de gestión de bases de datos relacional empleado para los ejercicios.
-
+- 🧰 **Python**: El lenguaje de programación principal utilizado en este repositorio.
+- 🛠️ **Visual Studio Code**: Un entorno de desarrollo integrado (IDE) utilizado para escribir, depurar y ejecutar programas Python.
+- 📦 **Bases de Datos**: Se han utilizado bases de datos relacionales y NoSQL para prácticas relacionadas con BBDD.
+  
 ## Contenido
 
-Encontrarás scripts SQL, esquemas de bases de datos, procedimientos, y ejercicios variados, cada uno en su respectiva carpeta según el tema tratado.
+Dentro de este repositorio encontrarás una amplia gama de ejercicios y prácticas organizadas en carpetas, cada una centrada en un tema específico. Los temas incluyen:
+- 📁 Bases de datos (BBDD), módulos, programación orientada a objetos (POO), polimorfismo, funciones, herencias y muchas prácticas adicionales.
