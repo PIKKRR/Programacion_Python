@@ -1,20 +1,13 @@
-# Ejercicios de Lenguaje de Marcas y Entornos de Desarrollo realizados durante el curso (Y otros añadidos para mi aprendizaje).
+# Ejercicios de Programación realizados durante el curso usando PSeInt.
 
-🌐 Este repositorio contiene una colección de ejercicios de lenguajes de marcas.
+🖥️ Este repositorio contiene una colección de ejercicios de programación realizados durante el curso para aprender a programar utilizando PSeInt.
+Un entorno de desarrollo de seudocódigo ampliamente utilizado en la enseñanza de la programación.
 
-## Herramientas Utilizadas.
+## Herramientas Utilizadas
 
-- 🔧 **Visual Studio Code**: Utilizado como entorno de desarrollo integrado (IDE) para escribir y editar archivos de lenguajes de marcas. (Incluyendo una variedad de extensiones).
-- 🌐 **Navegadores Web**: Los navegadores web se utilizan para visualizar y probar la representación de los lenguajes de marcas, como HTML, CSS y JavaScript.
+- 🧩 **PSeInt**: Utilizado como entorno de desarrollo para escribir, probar y depurar algoritmos en seudocódigo.
+- 📚 **Material Didáctico**: Se han utilizado ejercicios proporcionados durante el curso para aprender los conceptos básicos de la programación.
+  
+## Contenido
 
-## Contenido.
-
-El repositorio está organizado en carpetas según el tipo de lenguaje de marcas y el formato específico. Los temas incluyen:
-
-- 📁 HTML,JSON, CSS, JS, Markdown (MD), XML (DTD, Diagrama de clases, XPath, XQuery, XSD), UML y formatos de sindicación como Atom y RSS.
-
-## Herramientas Adicionales.
-
-Además de las herramientas mencionadas anteriormente, aquí hay una herramienta útil para validar y formatear documentos XML: 
-
-- ✅ **Validador y Formateador de XML**: [FreeFormatter XML Formatter](https://www.freeformatter.com/xml-formatter.html)
+Dentro de este repositorio encontrarás una variedad de ejercicios y prácticas.

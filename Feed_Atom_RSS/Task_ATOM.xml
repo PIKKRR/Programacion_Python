@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="https://www.w3.org/2005/Atom" xml:lang="es-es">
-    <title>Desarrollos Tecnológicos del Año</title>
-    <updated>2023-12-04T09:00:00Z</updated>
-    <link href="https://www.ejemplo.com/noticia1" rel="alternate" />
-    <summary>Repaso de los desarrollos tecnológicos más destacados del año.</summary>
-    <id>https://www.ejemplo.com/noticia1</id>
-</feed>
