@@ -1,0 +1,24 @@
+UPDATE Articulo
+	SET PVPArt = PVPArt+0.20
+	WHERE PVPArt < 1;
+
+UPDATE Pedido
+	SET FecPed = '2024-02-29'
+	WHERE RefPed = 'P0001';
+
+DELETE FROM LineaPedido
+WHERE CodArt IN (SELECT CodArt FROM Articulo WHERE PVPArt > 1);
+
+DELETE FROM Articulo
+WHERE PVPArt > 1;
+
+ALTER TABLE LineaPedido
+	MODIFY CantArt DECIMAL(7,2) NOT NULL;
+
+UPDATE LineaPedido
+	SET CantArt = CantArt + 5
+	WHERE RefPed = 'P0004';
+
+ALTER TABLE Articulo
+	MODIFY PVPArt DECIMAL(6,2) NOT NULL CHECK (PVPArt >=0);
+

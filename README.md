@@ -1,13 +1,12 @@
-# Ejercicios de Programación realizados durante el curso usando PSeInt.
+## Ejercicios de Base de datos realizados durante el curso (Y otros añadidos para mi aprendizaje).
 
-🖥️ Este repositorio contiene una colección de ejercicios de programación realizados durante el curso para aprender a programar utilizando PSeInt.
-Un entorno de desarrollo de seudocódigo ampliamente utilizado en la enseñanza de la programación.
+📚 Este repositorio alberga una serie de ejercicios de base de datos desarrollados durante mi curso. Los ejercicios van desde consultas SQL básicas hasta esquemas de bases de datos avanzados.
 
 ## Herramientas Utilizadas
 
-- 🧩 **PSeInt**: Utilizado como entorno de desarrollo para escribir, probar y depurar algoritmos en seudocódigo.
-- 📚 **Material Didáctico**: Se han utilizado ejercicios proporcionados durante el curso para aprender los conceptos básicos de la programación.
-  
+- ⚙️ **XAMPP**: Utilizado para configurar un entorno de desarrollo local, incluyendo MariaDB para gestionar bases de datos MySQL.
+- 🛢️ **MySQL**: El sistema de gestión de bases de datos relacional empleado para los ejercicios.
+
 ## Contenido
 
-Dentro de este repositorio encontrarás una variedad de ejercicios y prácticas.
+Encontrarás scripts SQL, esquemas de bases de datos, procedimientos, y ejercicios variados, cada uno en su respectiva carpeta según el tema tratado.
